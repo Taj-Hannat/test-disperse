@@ -1,0 +1,96 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://Taj-Hannat.github.io/test-disperse/annotations/episode-1-canvas-1-music.json",
+  "type": "AnnotationPage",
+  "label": "Music",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "episode-1-canvas-1-music-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "light ambient music",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Taj-Hannat.github.io/test-disperse/episode-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,55.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "episode-1-canvas-1-music-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "ambient music continues",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Taj-Hannat.github.io/test-disperse/episode-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "148.0,314.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "episode-1-canvas-1-music-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "rustling, flickering sounds over music",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Taj-Hannat.github.io/test-disperse/episode-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "314.0,525.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "episode-1-canvas-1-music-annotation-3.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "strumming music begins",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Taj-Hannat.github.io/test-disperse/episode-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "590.0,967.0"
+        }
+      }
+    }
+  ]
+}

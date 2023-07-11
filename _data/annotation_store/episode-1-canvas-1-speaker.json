@@ -1,0 +1,30 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://Taj-Hannat.github.io/test-disperse/annotations/episode-1-canvas-1-speaker.json",
+  "type": "AnnotationPage",
+  "label": "Speaker",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "episode-1-canvas-1-speaker-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "greeting from jockey Alan Herrick",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://Taj-Hannat.github.io/test-disperse/episode-1/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "55.0,148.0"
+        }
+      }
+    }
+  ]
+}
