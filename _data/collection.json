@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "(dis)PERSE" ] },
+    "summary": { "en": [ "Attempt to annotate random web series to try out AudiAnnotate" ] },
+    "items": [
+    ]
+}
