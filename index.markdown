@@ -4,5 +4,5 @@
 
 layout: home
 
-My Example Project: Disperse
+My Example Project Disperse
 ---
